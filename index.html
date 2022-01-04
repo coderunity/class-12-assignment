@@ -49,7 +49,7 @@
  <!-- Marriage Calculator -->
  
  
- <div class="card w-75 mx-auto mt-5">
+ <div class="card w-75 w-75 mx-auto mt-5 col-xl-6 col-md-12">
      <div class="card-header">
          <h2 class="card-titel text-center"> Marriage Calculator </h2>
      </div>
@@ -89,18 +89,18 @@
  
  <!-- Currency Convater -->
 
- <div class="col-xl-6">
     <div class=" mt-5">
-        <div class="w-75 card m-auto d-block">
+        <div class="card w-75 mx-auto mt-5 col-xl-6 col-md-12">
             <div class="card-header text-center ">
                 <h1>Currency Conveter</h1>
             </div>
             <div class="card-body py-5">
                 <form action="#" id="forms">
                     <input id="usdamount" type="tel" class="form-control form-control-lg mb-4 " placeholder="Type Your Amount">
+                    <p class="text-danger" id="amountmessage"></p>
 
                     <select id="usdselect" class="form-select form-select-lg mb-4" aria-label="Default select example">
-                        <option selected>Select Your Currency Name</option>
+                        <option selected value="0">Select Your Currency Name</option>
                         <option value="85.78">USD</option>
                         <option value="66.94">CAD</option>
                         <option value="96.97">ERO</option>
@@ -109,7 +109,7 @@
                         <option value="23.35">AED</option>
                         <option value="20.52">MYR</option>
                     </select>
-                    <input type="submit" value="Convert" class="btn btn-info btn-md w-100">
+                    <input id="buttons" type="submit" value="Convert" class="btn btn-info btn-md w-100">
                 </form>
             </div>
             <div class="card-footer ">
@@ -118,7 +118,6 @@
 
         </div>
     </div>
-</div>
 <br>
 <br>
 <br>
